@@ -27,7 +27,7 @@
                                 </label>
                               </div>
                             </th>
-                            <th colspan="4"> Task </th>
+                            <th colspan="4"> Task Lists </th>
                             <th> Subitem </th>
                             <th> Owner</th>
                             <th> People </th>
