@@ -30,6 +30,7 @@ else
     <!-- endinject -->
     <!-- Layout styles -->
     <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/style-two.css">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="assets/images/cropped-amazon.png" />
     <style type="text/css">

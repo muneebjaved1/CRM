@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
  <?php include 'assets/Layouts/head.php'; ?> 
   <body>
+    <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">ITEM 1</a>
+            <a href="#">ITEM 2</a>
+            <a href="#">ITEM 3</a>
+            <a href="#">ITEM 4</a>
+        </div>
     <div class="container-scroller">
       
       <?php include 'assets/Layouts/navigation-user.php'; ?>
@@ -44,7 +52,10 @@
                                 </label>
                               </div>
                             </td>
-                            <td colspan="4">Henry Klein <span style="float:right;"><a class="toggle-side"><i class="mdi mdi-email"></i></a></span>
+                            <td colspan="4">Henry Klein <span style="float:right;"><a class="toggle-side">
+                              <span onclick="openNav()" style="cursor: pointer; padding: 5px;"><i class="mdi mdi-email"></i></span>
+
+                            </a></span>
                             </td>
                             <td> no </td>
                             <td> <img src="assets/images/faces/face1.jpg" alt="image" /> </td>
@@ -125,9 +136,19 @@
         }
        
 </script>
+<script type="text/javascript">
+  function openNav() {
+            document.getElementById("mySidenav").style.width = "500px";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+</script>
         <?php 
         include 'assets/Layouts/scripts.php';
         ?>
     <!-- End custom js for this page -->
   </body>
+
+  <div class="row"> <div class="col-12 grid-margin"> <div class="card"> <div class="card-body"> <div class="row"> <div class="col-md-4 col-sm-6 d-flex justify-content-center border-right"> <div class="wrapper text-center"> <h4 class="card-title">Alerts Popups</h4> <p class="card-description">A basic message</p> <button class="btn btn-outline-primary" onclick="showSwal('basic')">Click here!</button> </div> </div> <div class="col-md-4 col-sm-6 d-flex justify-content-center border-right"> <div class="wrapper text-center"> <h4 class="card-title">Alerts Popups</h4> <p class="card-description">A title with a text under</p> <button class="btn btn-outline-primary" onclick="showSwal('title-and-text')">Click here!</button> </div> </div> <div class="col-md-4 col-sm-6 d-flex justify-content-center"> <div class="wrapper text-center"> <h4 class="card-title">Alerts Popups</h4> <p class="card-description">A success message!</p> <button class="btn btn-outline-primary" onclick="showSwal('success-message')">Click here!</button> </div> </div> </div> </div> </div> </div>
 </html>
