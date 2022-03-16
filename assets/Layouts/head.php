@@ -32,5 +32,32 @@ else
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="assets/images/cropped-amazon.png" />
-    
+    <style type="text/css">
+       .side-menu {
+    width:300px;
+    top:0;
+    background-color:black;
+    height:100vh;
+    position:fixed;
+    right:-300px;
+    transition: all .5s;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    z-index:30;
+    .header {
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      i {
+          align-self:flex-start;
+          cursor:pointer;
+          transition: all .5s;
+          transform: rotate(180deg) skewX(0deg);
+          &:hover{
+            color:#E59500;
+          }
+       }
+    </style>
   </head>

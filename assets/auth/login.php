@@ -39,7 +39,7 @@ else{
             <div class="card col-lg-4 mx-auto">
               <div class="card-body px-5 py-5">
                 <center><img src="../images/cropped-amazon.png"></center>
-                <h3 class="card-title text-left mb-3">Login Form</h3>
+                <h3 class="card-title text-left mb-3">Login</h3>
                 <form>
                   <div class="form-group"  >
                       <center><div id="error" style="color:red;" ></div></center>

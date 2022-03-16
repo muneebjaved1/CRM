@@ -12,7 +12,9 @@
             <a class="nav-link" href="index.php">
               <span class="menu-icon">
                 <i class="mdi mdi-view-grid"></i>
+
               </span>
+              <span class="menu-title">Work Spaces</span>
             </a>
           </li>
           <li class="nav-item menu-items" data-toggle="tooltip" data-placement="right" title="Notifications">
@@ -20,13 +22,16 @@
               <span class="menu-icon">
                 <i class="mdi mdi-bell"></i>
               </span>
+                <span class="menu-title">Notifications</span>
             </a>
           </li>
           <li class="nav-item menu-items" data-toggle="tooltip" data-placement="right" title="Messages">
             <a class="nav-link" href="messages.php">
               <span class="menu-icon">
                 <i class="mdi mdi-email"></i>
+                
               </span>
+              <span class="menu-title">Messages</span>
             </a>
           </li>
           <li class="nav-item menu-items" data-toggle="tooltip" data-placement="right" title="My Work">
@@ -34,6 +39,7 @@
               <span class="menu-icon">
                 <i class="mdi mdi-calendar-check"></i>
               </span>
+              <span class="menu-title">My Work</span>
             </a>
           </li>
           
